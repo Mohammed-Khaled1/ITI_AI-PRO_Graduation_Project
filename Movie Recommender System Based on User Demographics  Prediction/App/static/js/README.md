@@ -1,3 +1,3 @@
-`js` Folder Description:
+**`j`** Folder Description:
 
 This folder contains all js files.
