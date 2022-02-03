@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Change Password</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="static\css\login_signup.css">
+        <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    </head>
+    
+    <body>
+        <div class="main" style="background-image: url('static/images/recommender-system-for-movie-recommendation.jpg'); background-size: 100%;">
+
+            <!-- <a href="https://front.codes/" class="logo" target="_blank">
+                <img src="https://assets.codepen.io/1462889/fcy.png" alt="">
+            </a> -->
+
+            <div class="section">
+                <div class="container">
+                    <div class="row full-height justify-content-center">
+                        <div class="col-12 text-center align-self-center py-5">
+                            <div class="section pb-5 pt-5 pt-sm-2 text-center">
+                                <div class="card-3d-wrap mx-auto">
+                                    <div class="card-3d-wrapper">
+                                        <div class="card-front">
+                                            <div class="center-wrap">
+                                                <div class="section text-center">
+                                                    <form method="POST" oninput='regConfPass.setCustomValidity(regConfPass.value != regPass.value ? "Passwords do not match." : "")'>
+                                                        <h4 class="mb-4 pb-3">Change Password</h4>
+                                                        <div class="form-group mt-2">
+                                                            <input type="email" name="regEmail" class="form-style" placeholder="{{g.user[3]}}" value="{{g.user[3]}}" id="regEmail" autocomplete="off" disabled>
+                                                            <i class="input-icon iconify" data-icon="uil:at"></i>
+                                                        </div>	
+                                                        <div class="form-group mt-2">
+                                                            <input type="password" name="regPass" class="form-style" placeholder="New Password" id="regPass" autocomplete="off" required>
+                                                            <i class="input-icon iconify" data-icon="uil:lock-alt"></i>
+                                                        </div>
+                                                        <div class="form-group mt-2">
+                                                            <input type="password" name="regConfPass" class="form-style" placeholder="Confirm Password" id="regConfPass" autocomplete="off">
+                                                            <i class="input-icon iconify" data-icon="uil:lock-alt"></i>
+                                                        </div>
+                                                        <button class='btn mt-4' type='submit' id='btn_reg_submit' name='btn_reg_submit'><a>submit</a></button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        </div>
+    </body>
+</html>

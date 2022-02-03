@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login / Signup</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="static\css\login_signup.css">
+        <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    </head>
+    
+    <body>
+        <div class="main" style="background-image: url('static/images/recommender-system-for-movie-recommendation.jpg'); background-size: 100%;">
+
+            <!-- <a href="https://front.codes/" class="logo" target="_blank">
+                <img src="https://assets.codepen.io/1462889/fcy.png" alt="">
+            </a> -->
+
+            <div class="section">
+                <div class="container">
+                    <div class="row full-height justify-content-center">
+                        <div class="col-12 text-center align-self-center py-5">
+                            <div class="section pb-5 pt-5 pt-sm-2 text-center">
+                                <h6 class="mb-0 pb-3"><span>Log In </span><span>Sign Up</span></h6>
+                                <input class="checkbox iconify" data-icon="bi:arrow-down-left-circle-fill" data-rotate="180deg" type="checkbox" id="reg-log" name="reg-log"/>
+                                <label for="reg-log"></label>
+                                <div class="card-3d-wrap mx-auto">
+                                    <div class="card-3d-wrapper">
+                                        <div class="card-front">
+                                            <div class="center-wrap">
+                                                <div class="section text-center">
+                                                    <form method="POST">
+                                                        <h4 class="m-4">Log In</h4>
+                                                        <div class="form-group">
+                                                            <input type="email" name="logEmail" class="form-style" placeholder="Your Email" id="logEmail" autocomplete="off" required>
+                                                            <i class="input-icon iconify" data-icon="uil:at"></i>
+                                                        </div>	
+                                                        <div class="form-group mt-2">
+                                                            <input type="password" name="logPass" class="form-style" placeholder="Your Password" id="logPass" autocomplete="off" required>
+                                                            <i class="input-icon iconify" data-icon="uil:lock-alt"></i>
+                                                        </div>
+                                                        <p class="mb-0 mt-4 text-center">{{message}}</p>
+                                                        <button class='btn mt-4' type='submit' id='btn_login_submit' name='btn_login_submit'><a>submit</a></button>
+                                                        <p class="mb-0 mt-4 text-center"><a href="forget" class="link">Forgot your password?</a></p>
+                                                        <p class="mb-0 m-2 text-center"><a href="home_guest" class="link">Login as a guest</a></p>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-back">
+                                            <div class="center-wrap">
+                                                <div class="section text-center">
+                                                    <form method="POST" name="reg_form" oninput='regConfPass.setCustomValidity(regConfPass.value != regPass.value ? "Passwords do not match." : "")'>
+                                                        <h4 class="mb-3">Sign Up</h4>
+                                                        <div class="form-group">
+                                                            <input type="text" name="regFirstName" class="form-style" placeholder="Your First Name" id="regFirstName" autocomplete="off" required>
+                                                            <i class="input-icon iconify" data-icon="ant-design:user-outlined"></i>
+                                                        </div>	
+                                                        <div class="form-group mt-2">
+                                                            <input type="text" name="regLastName" class="form-style" placeholder="Your Last Name" id="regLastName" autocomplete="off" required>
+                                                            <i class="input-icon iconify" data-icon="ant-design:user-outlined"></i>
+                                                        </div>	
+                                                        <div class="form-group mt-2">
+                                                            <input type="email" name="regEmail" class="form-style" placeholder="Your Email" id="regEmail" autocomplete="off" required>
+                                                            <i class="input-icon iconify" data-icon="uil:at"></i>
+                                                        </div>	
+                                                        <div class="form-group mt-2">
+                                                            <input type="password" name="regPass" class="form-style" placeholder="Your Password" id="regPass" autocomplete="off" required>
+                                                            <i class="input-icon iconify" data-icon="uil:lock-alt"></i>
+                                                        </div>
+                                                        <div class="form-group mt-2">
+                                                            <input type="password" name="regConfPass" class="form-style" placeholder="Confirm Password" id="regConfPass" autocomplete="off">
+                                                            <i class="input-icon iconify" data-icon="uil:lock-alt"></i>
+                                                        </div>
+                                                        <button class='btn mt-2' type='submit' id='btn_reg_submit' name='btn_reg_submit'><a>submit</a></button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        </div>
+    </body>
+</html>

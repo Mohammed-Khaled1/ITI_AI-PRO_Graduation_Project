@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forget Password</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="static\css\login_signup.css">
+        <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    </head>
+    
+    <body>
+        <div class="main" style="background-image: url('static/images/recommender-system-for-movie-recommendation.jpg'); background-size: 100%;">
+
+            <!-- <a href="https://front.codes/" class="logo" target="_blank">
+                <img src="https://assets.codepen.io/1462889/fcy.png" alt="">
+            </a> -->
+
+            <div class="section">
+                <div class="container">
+                    <div class="row full-height justify-content-center">
+                        <div class="col-12 text-center align-self-center py-5">
+                            <div class="section pb-5 pt-5 pt-sm-2 text-center">
+                                <div class="card-3d-wrap mx-auto">
+                                    <div class="card-3d-wrapper">
+                                        <div class="card-front">
+                                            <div class="center-wrap">
+                                                <div class="section text-center">
+                                                    <form method="POST">
+                                                        <h4 class="mb-4 pb-3">Forget Password</h4>
+                                                        <div class="form-group">
+                                                            <input type="email" name="email" class="form-style" placeholder="Your Email" id="email" autocomplete="off" value="{{storedEmail}}" required>
+                                                            <i class="input-icon iconify" data-icon="uil:at"></i>
+                                                        </div>	
+                                                        <div class="form-group mt-2">
+                                                            <input type="password" name="verify_otp" class="form-style" placeholder="OTP CODE ex. XXXXXX" id="verify_otp" autocomplete="off">
+                                                            <i class="input-icon iconify" data-icon="uil:lock-alt"></i>
+                                                        </div>
+                                                        <p class="mb-0 mt-4 text-center">{{message}}</p>
+                                                        <button class='btn mt-4' type='submit' id='btn_verify_submit' name='btn_verify_submit'><a>submit</a></button>
+                                                        <p class="mb-0 mt-4 text-center"><button type='submit' id='btn_resend_submit' name='btn_resend_submit'><a class="link" >Resend Code</a></button></p>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        </div>
+    </body>
+</html>
