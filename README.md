@@ -21,7 +21,7 @@ This application recommend movies based on user demographics prediction.
 * Age model Manual Data Cleaning.
 * More Enhancement for the Ethnicity model and make better use of it.
 * Using other recommender systems approaches:
-  * Collaborative filtering.
-  * Implicit Ratings.
+  * *Collaborative filtering.*
+  * *Implicit Ratings.*
 * User interaction record addition and improvement.
 * Adding further options and abilities for the user in the recommendation section.
