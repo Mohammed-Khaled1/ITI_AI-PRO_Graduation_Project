@@ -12,10 +12,10 @@ This application recommend movies based on user demographics prediction.
   * The top 10 recommendations will be displayed on the screen and will be sent to the user's email. 
 
 * Login as a guest process:
- * The application will open the camera and take a photo.
- * The photo will be resized and saved.
- * The Age, Gender & Ethnicity of the user will be predicted using the models.
- * The top 5 recommendations will be displayed on the screen. 
+  * The application will open the camera and take a photo.
+  * The photo will be resized and saved.
+  * The Age, Gender & Ethnicity of the user will be predicted using the models.
+  * The top 5 recommendations will be displayed on the screen. 
 
 ## Future Work
 * Age model Manual Data Cleaning.
